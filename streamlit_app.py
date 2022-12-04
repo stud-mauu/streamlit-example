@@ -66,7 +66,7 @@ if st.button("Generate"):
     for set in results:
         for char in set:
             stri += str(char) + " " 
-        stri += "\n "
+        stri += "  \n "
     st.write("\nList of " + str(r) + "-combinations of {1,...," + str(n_read) + "}\n\n" + stri + 
     "\nTotal of " + str(len(results)) + " combinations")
 
