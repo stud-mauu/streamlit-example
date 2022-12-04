@@ -26,8 +26,9 @@ st.write("Welcome to Chris Daniel B. Cayabyab's \nCombinations generator")
 n_read = (st.number_input("Enter number of elements\nn = "))
 r = (st.number_input("Enter number of sample\s \nr = "))
 
+chars = [i+1 for i in range(n_read)]
 if st.button("Generate"):
-    chars = [i+1 for i in range(n_read)]
+   
     n = len(chars)
 
     arr = [i for i in range(r)]
