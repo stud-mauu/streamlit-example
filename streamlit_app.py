@@ -18,7 +18,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 st.title("Hello World")
 
 name = st.text_input("Enter your name")
-
+st.write("Mau\nSebastian")
 if st.button("Say Hello"):
     st.write("Hello", name)
     
